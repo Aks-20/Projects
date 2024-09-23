@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
 import CssBaseline from "@mui/material/CssBaseline";
-import ToDoList from "./ToDoList"; // Correct capitalization of component
+import ToDoList from "./ToDoList"; 
 
 function App() {
   const [count, setCount] = useState(0);

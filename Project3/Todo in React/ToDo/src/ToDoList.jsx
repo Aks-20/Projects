@@ -44,7 +44,7 @@ export default function TodoList() {
                     >
                         <ListItemButton
                             role={undefined}
-                            onClick={() => handleToggle(todo.id)} // Handle item click
+                            onClick={() => handleToggle(todo.id)} 
                             dense
                         >
                             <ListItemIcon>
